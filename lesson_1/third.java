@@ -6,12 +6,10 @@ package java_1.lesson_1;
  */
 public class third {
     public static void main(String[] args){
-        int a, b, c, d;
-        a = 23;
-        b = 43;
-        c = 65;
-        d = 54;
-        System.out.println("Значение выражения a * (b + (c / d)) равно " + exp(a, b, c, d));
+        System.out.println("Значение выражения a * (b + (c / d)) равно " + exp(58, 98, 17, 58));
+        System.out.println("Значение выражения a * (b + (c / d)) равно " + exp(452, 42, 563, 42));
+        System.out.println("Значение выражения a * (b + (c / d)) равно " + exp(4, 42, 4, 45));
+
     }
 
     private static  int exp(int a, int b, int c, int d){
